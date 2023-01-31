@@ -1,19 +1,19 @@
-import { dbank_backend } from "../../declarations/dbank_backend";
+// import { dbank_backend } from "../../declarations/dbank_backend";
 
-document.querySelector("form").addEventListener("submit", async (e) => {
-  e.preventDefault();
-  const button = e.target.querySelector("button");
+// document.querySelector("form").addEventListener("submit", async (e) => {
+//   e.preventDefault();
+//   const button = e.target.querySelector("button");
 
-  const name = document.getElementById("name").value.toString();
+//   const name = document.getElementById("name").value.toString();
 
-  button.setAttribute("disabled", true);
+//   button.setAttribute("disabled", true);
 
-  // Interact with foo actor, calling the greet method
-  const greeting = await dbank_backend.greet(name);
+//   // Interact with foo actor, calling the greet method
+//   const greeting = await dbank_backend.greet(name);
 
-  button.removeAttribute("disabled");
+//   button.removeAttribute("disabled");
 
-  document.getElementById("greeting").innerText = greeting;
+//   document.getElementById("greeting").innerText = greeting;
 
-  return false;
-});
+//   return false;
+// });
