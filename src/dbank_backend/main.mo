@@ -33,7 +33,7 @@ actor {
   public func withdraw(amount: Float) {
     let temp: Float = currentValue - amount;
     if (temp > 0) {
-    currentValue+=amount;
+    currentValue-=amount;
     } else {
       Debug.print("Withdrawal amount greater than available funds");
     };
@@ -45,8 +45,8 @@ actor {
 
   public func compound() {
     var currentTime = Time.now();
-    var timeElapsedSecs = (currentTime - startTime)/1000000000;
-    currentValue := currentValue * (1.01 ** Float.fromInt(timeElapsedSecs));
+    var timeElapsedMins = (currentTime - startTime)/60000000000;
+    currentValue := currentValue * (1.01 ** Float.fromInt(timeElapsedMins));
     startTime := currentTime;
   };
 
