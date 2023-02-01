@@ -35,7 +35,7 @@
 List the ready features here:
 - Deposit/ Withdrawal functionality
 - Orthogonal Persistance
-- More to follow
+- Compounds interest every minute so user can see a change
 
 
 ## Screenshots
