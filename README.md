@@ -15,6 +15,7 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
+* [Motoko/IC Recourses](#resources)
 <!-- * [License](#license) -->
 
 
@@ -34,51 +35,59 @@ List the ready features here:
 - Deposit/ Withdrawal functionality
 - Orthogonal Persistance
 - More to follow
---editing in process---
+
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![Example screenshot](./img/UIpic.png)
+
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+To install dfx, run:
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+`sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"`
+
+To verify that dfx properly installed, run:
+
+`dfx --version`
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
 
-`write-your-code-here`
+1. Start excution environment (run in background or open a new terminal after you execute this command)
+`dfx start`
 
+If you open a new terminal, leave the other terminal the excution environment (dfx start) running. 
+
+2. Install dependencies:
+`npm install`
+
+3. Deploy the Decent Bank app.
+`dfx deploy`
+
+4. Start the development server
+`npm start`
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
+Project is: _in progress_ 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- modal confirmation when transaction button is pressed
+- make the app in to a 100% React app
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- css for modal
+- html for modal
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+This course is part of [Angela Yu's bootcamp](https://appbrewery.com/p/the-complete-web-development-course).
+
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@celalkincross](https://celalkincross.github.io/) - feel free to contact me!
 
 
 <!-- Optional -->
@@ -86,6 +95,8 @@ Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 <!-- This project is open source and available under the [... License](). -->
 
 <!-- You don't have to include all sections - just the one's relevant to your project -->
+
+## Resources
 
 - [Quick Start](https://internetcomputer.org/docs/current/developer-docs/quickstart/hello10mins)
 - [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/build/install-upgrade-remove)
