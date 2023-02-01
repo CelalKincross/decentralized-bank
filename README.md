@@ -16,7 +16,7 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-* [Motoko/IC Recourses](#resources)
+* [Motoko/IC Resourses](#resources)
 <!-- * [License](#license) -->
 
 
