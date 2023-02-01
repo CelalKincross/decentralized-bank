@@ -54,18 +54,22 @@ To verify that dfx properly installed, run:
 
 ## Usage
 
-1. Start excution environment (run in background or open a new terminal after you execute this command)
+1. Start excution environment (run in background or open a new terminal after you execute this command).
+
 `dfx start`
 
 If you open a new terminal, leave the other terminal the excution environment (dfx start) running. 
 
 2. Install dependencies:
+
 `npm install`
 
 3. Deploy the Decent Bank app.
+
 `dfx deploy`
 
-4. Start the development server
+4. Start the development server.
+
 `npm start`
 
 ## Project Status
